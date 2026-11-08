@@ -370,6 +370,19 @@ its width ("Sichuan, China · near Chengdu"), offline, with the states and provi
 the division. Public domain; credited "Made with Natural Earth" with the other packs. Rebuild:
 `node scripts/build-admin-packs.mjs --only places`; provenance in the folder README.
 
+### Water Surface (synthetic; no dataset)
+
+The Water Surface layer (`src/layers/water/`) draws no data. It is one animated
+rectangle of water at local mean sea level that follows the view: EGM96 geoid
+height from the bundled `egm96-universal` model plus an operator offset, hidden
+under land by the depth buffer (the Google Photorealistic tileset, or the terrain
+globe with its depth test on while the layer is enabled). The only asset is the
+tileable wave normal map shipped inside CesiumJS
+(`Assets/Textures/waterNormals.jpg`, Apache-2.0), served from the Cesium bundle
+and not copied into this repository. Attribution shown in the app: "Water
+surface: synthetic sea at EGM96 mean sea level; wave normal map from CesiumJS
+(Apache-2.0)". No key, no request.
+
 ### Sky background (`sky/`)
 
 Sources, licences, the changes CC BY asks to state, hashes and build commands
