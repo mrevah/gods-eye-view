@@ -370,6 +370,15 @@ its width ("Sichuan, China · near Chengdu"), offline, with the states and provi
 the division. Public domain; credited "Made with Natural Earth" with the other packs. Rebuild:
 `node scripts/build-admin-packs.mjs --only places`; provenance in the folder README.
 
+### Simulation scenarios (`public/scenarios/`, synthetic)
+
+The Simulation layer flies authored aircraft from scenario files bundled under
+`public/scenarios/`; format in [docs/SIMULATION.md](docs/SIMULATION.md). The
+bundled `fleet-week-sf.json` is hand-written and synthetic: invented callsigns,
+registrations and paths, not recorded flights. Models are the project's own
+hangar GLBs (see `public/models/README.md`). No key, no request beyond the
+scenario file itself.
+
 ### Water Surface (synthetic; no dataset)
 
 The Water Surface layer (`src/layers/water/`) draws no data. It is one animated
