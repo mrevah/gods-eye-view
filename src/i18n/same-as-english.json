@@ -46,6 +46,7 @@
     "▲ {frp} MW"
   ],
   "de": [
+    "Auto",
     "Simulation",
     "+{value} m",
     "1090 MHz",
@@ -235,6 +236,7 @@
     "▲ {frp} MW"
   ],
   "es": [
+    "Auto",
     "+{value} m",
     "1 min/s",
     "1090 MHz",
@@ -387,6 +389,7 @@
     "iNaturalist"
   ],
   "fr": [
+    "Auto",
     "Simulation",
     "+{value} m",
     "1 min/s",
@@ -595,6 +598,7 @@
     "Photo © {photographer}"
   ],
   "it": [
+    "Auto",
     "+{value} m",
     "1 min/s",
     "1090 MHz",
@@ -851,6 +855,7 @@
     "▲ {frp} MW"
   ],
   "pt": [
+    "Auto",
     "+{value} m",
     "1 min/s",
     "1090 MHz",
