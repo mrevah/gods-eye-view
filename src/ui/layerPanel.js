@@ -51,6 +51,7 @@ const PANEL_GROUPS = [
       'local-adsb',
       'simulation',
       'virtual-cameras',
+      'scenario-editor',
       'ais-live-vessels',
       'traffic',
       'transit',

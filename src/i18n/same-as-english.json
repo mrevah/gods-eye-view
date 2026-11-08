@@ -46,6 +46,7 @@
     "▲ {frp} MW"
   ],
   "de": [
+    "{value} ft",
     "Auto",
     "Simulation",
     "+{value} m",
@@ -236,6 +237,8 @@
     "▲ {frp} MW"
   ],
   "es": [
+    "{value} ft",
+    "Director",
     "Auto",
     "+{value} m",
     "1 min/s",
@@ -389,6 +392,7 @@
     "iNaturalist"
   ],
   "fr": [
+    "{value} ft",
     "Auto",
     "Simulation",
     "+{value} m",
@@ -598,6 +602,7 @@
     "Photo © {photographer}"
   ],
   "it": [
+    "{value} ft",
     "Auto",
     "+{value} m",
     "1 min/s",
@@ -792,6 +797,7 @@
     "SATELLITE"
   ],
   "ja": [
+    "{value} ft",
     "+{value} m",
     "1090 MHz",
     "978 MHz UAT",
@@ -855,6 +861,7 @@
     "▲ {frp} MW"
   ],
   "pt": [
+    "{value} ft",
     "Auto",
     "+{value} m",
     "1 min/s",
